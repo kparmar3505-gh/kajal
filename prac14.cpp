@@ -76,7 +76,7 @@ public:
     // Check whether queue is empty
     void isEmpty()
     {
-        if (front == -1)
+        if (front == -1 || front > rear)
             cout << "Queue is Empty.\n";
         else
             cout << "Queue is Not Empty.\n";
