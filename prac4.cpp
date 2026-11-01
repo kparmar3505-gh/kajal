@@ -32,7 +32,7 @@ int main()
         cin >> arr[i];
 
         // Create new node
-        Node* newNode = new Node();
+        Node* newNode = new Node;
 
         newNode->marks = arr[i];
         newNode->next = NULL;
