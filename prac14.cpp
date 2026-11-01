@@ -44,7 +44,7 @@ public:
     // Delete student ID
     void dequeue()
     {
-        if (front == -1)
+        if (front == -1 || front > rear)
         {
             cout << "Circular Queue is Empty!\n";
             return;
