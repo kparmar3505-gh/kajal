@@ -39,7 +39,7 @@ public:
     // Remove student from queue
     void dequeue()
     {
-        if (front == -1)
+        if (front == -1 || front > rear)
         {
             cout << "Queue is Empty!\n";
             return;
