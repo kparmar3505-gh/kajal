@@ -85,7 +85,7 @@ public:
     // Display circular queue
     void display()
     {
-        if (front == -1)
+        if (front == -1 || front > rear)
         {
             cout << "Circular Queue is Empty!\n";
             return;
